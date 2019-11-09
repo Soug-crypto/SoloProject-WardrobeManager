@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Ahmed's Wardrobe Manager</title>
+	<link rel="stylesheet" type="text/css" href="styling.css">
+</head>
+<body>
+	<script
+	  src="https://code.jquery.com/jquery-3.4.1.js"
+	  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+	  crossorigin="anonymous"></script>
+
+  	<script type="text/javascript" src="wdm.js"></script>
+	<h1>Random dresser</h1><br><br>
+
+	<div>
+		<button id= "addClothes">Add Clothes</button>
+		<button id="dressMe">Dress me!</button>
+		<button id="Display">Display wardrobe</button>
+		<div id="cleaner">
+			<select name="category">
+				<option value="cleaning" selected>Clean something!</option>
+				<option value="upperware">Upperware</option>
+				<option value="middlewear">Middlewear</option>
+				<option value="shoes">Shoes</option>
+			</select><br>
+		</div>
+	</div><br>
+
+	<div id=adding>
+		<div id="inputClothes"></div>
+	</div>
+
+
+	<div id="nonAdd">
+
+		<div id ="dress1">
+			<select name="db">
+		 		 <option value="wardrobe" id= "1">Test Wardrobe</option>
+		 		 <option value="wardrobe" id= "2">Test2 Wardrobe</option>
+			</select>
+
+			<select name="style"> 
+				<option value="style" selected>Style</option>
+				<option value="formal">Formal</option>
+				<option value="smart">Smart</option>
+				<option value="casual">Casual</option>
+			</select>
+
+			<select name="weather">
+				<option value="weather" selected>Weather</option>
+				<option value="warm">Warm</option>
+				<option value="cloudy">Cloudy</option>
+				<option value="cold">Cold</option>
+			</select>
+		</div>
+
+	
+
+		<div id="displayerDiv"></div>
+
+		
+
+	</div>	
+	<div id= "cleaningDiv"></div>
+
+</body>
+</html>
